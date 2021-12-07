@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ts-node",
+      "type": "shell",
+      "command": "npx ts-node ${file}",
+      "problemMatcher": ["$tsc"]
+    }
+  ]
+}
